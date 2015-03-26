@@ -13,7 +13,7 @@ tkfocus(tt)
 tkwait.window(OK.but) # TRES IMPORTANT : l'ex\'ecution s'arr\^ete ici tant que l'utilisateur n'a pas cliqu\'e sur OK 
 
 if (as.numeric(tclvalue(textEntryVarTcl))==2) {
- tt <- tktoplevel() # on crée une fenetre
+ tt <- tktoplevel() # on cr\'ee une fenetre
  tktitle(tt) <- "Weighting"
 
  rb1 <- tkradiobutton(tt) # premier bouton radio

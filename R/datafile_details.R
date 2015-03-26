@@ -1,6 +1,6 @@
 datafile_details <-
 function() {
-# Ici, l'utilisateur est invit\'e \`a  fournir des dÃ©tails de mise en forme \`a propos de son fichier
+# Details de mise en forme sont donnes ici
 
 myenv = new.env() # nouvel environnement qui inclura la variable globale tcltk
 
