@@ -63,7 +63,7 @@ if (GoOn == 1) {
   } 
    
  } else if (proc$Nb_raters > 2) { # Kappa Fleiss
-  MatRes = matrix(ncol = ncol(bdd)/proc$Nb_raters, nrow = 1)
+  MatRes = matrix(ncol = ncol(bdd)/proc$Nb_raters, nrow = 2)
   colnames(MatRes) = substr(colnames(bdd)[seq(from=1, to=ncol(bdd), by=proc$Nb_raters)], 1, nchar(colnames(bdd)[seq(from=1, to=ncol(bdd), by=proc$Nb_raters)])-2)
   rownames(MatRes) = c("Value(s) for Fleiss' Kappa", "Nb_indiv")
   
@@ -79,7 +79,7 @@ if (GoOn == 1) {
  print(MatRes)
  fileName<-tclvalue(tkgetSaveFile(filetypes="{{CSV Files} {.csv}}"))
  if (!nchar(fileName)) {
-  tkmessageBox(message="No file was selected!", icon="error")
+  tkmessageBox(message="No file was selected to save the results.", icon="warning")
  } 
  write.csv2(MatRes, fileName)
 }

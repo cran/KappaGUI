@@ -12,8 +12,8 @@ Offers a complete and interactive GUI to work out Cohen's and Fleiss' Kappa, bas
 \tabular{ll}{
 Package: \tab KappaGUI\cr
 Type: \tab Package\cr
-Version: \tab 1.1\cr
-Date: \tab 2015-03-26\cr
+Version: \tab 1.2.1\cr
+Date: \tab 2017-06-22\cr
 License: \tab GPL >=2\cr
 }
 
@@ -33,7 +33,5 @@ Cohen, J. (1968). Weighted kappa: Nominal scale agreement with provision for sca
 kappa2
 }
 \examples{
-\dontrun{
-StartKappa()
-}
+\donttest{StartKappa()}
 }

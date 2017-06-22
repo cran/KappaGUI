@@ -1,3 +1,5 @@
 export("StartKappa")
 import(tcltk)
 import(irr)
+importFrom("stats", "na.omit")
+importFrom("utils", "read.csv", "write.csv2")

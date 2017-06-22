@@ -1,9 +1,9 @@
-2b1f2ac5abe802aa9d3290f0fa93e5e6 *DESCRIPTION
-50d55f0c263dfd0d8d50d4d0333b1490 *NAMESPACE
+d61f28190b7ba85ca94159be18df7746 *DESCRIPTION
+09d19a5d8fe12015487d02986cd1c0c2 *NAMESPACE
 117db551b7ac388c0ca2b2920ea6c0e7 *R/Sel_procedure.R
-dcc7a82289ce3e190ac6aa07938f064c *R/StartKappa.R
+b947bbe938933829d098c70a1c132b17 *R/StartKappa.R
 e688c894949611eb3c777ce37dabdf87 *R/datafile_details.R
-fb6a8f6d5fe7a519e4b64e48114c7346 *man/KappaGUI-package.Rd
+dac6c1b357e6e8a7a2bd033b8b939050 *man/KappaGUI-package.Rd
 cc1d36b5ba9954bb5e143014bc6131a6 *man/Sel_procedure.Rd
 f8c00e83ae9023206b5928e3ea2eeff4 *man/StartKappa.Rd
 9e5105ade50db6f174835e39dc087d31 *man/datafile_details.Rd
