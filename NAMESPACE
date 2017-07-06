@@ -1,5 +1,5 @@
 export("StartKappa")
-import(tcltk)
+import(shiny)
 import(irr)
 importFrom("stats", "na.omit")
-importFrom("utils", "read.csv", "write.csv2")
+importFrom("utils", "read.csv", "write.csv")
