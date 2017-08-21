@@ -16,17 +16,16 @@ shinyUI(fluidPage(theme = "kappa.css",
 			uiOutput("helpBox"), # ... qui s'affiche ici, en fonction de la valeur retournée par la valeur "help_me" du bouton d'aide (cf. server.R)
 			br(),
 			br(), # sauts de ligne
-			br(),
 	
 			# b) Choix entre Kappa de Cohen ou de Fleiss :
 			radioButtons("choiceKappa", label=h3("Number of raters"), choices=c("Two raters", "Three raters or more")),	
 			conditionalPanel( # panneau ne s'affichant que si l'utilisateur choisit le kappa de Cohen !
 				condition = "input.choiceKappa == 'Two raters'", # condition javascript. Cf. aide en ligne pour la syntaxe. 
-				radioButtons("weightingScheme", label=strong("Cohen's kappa weighting scheme"), choices=c("Unweighted kappa", "Linear weighting", "Quadratic weighting"))
+				radioButtons("weightingScheme", label=h3("Cohen's kappa weighting scheme"), choices=c("Unweighted kappa", "Linear weighting", "Quadratic weighting"))
 			),
 			conditionalPanel( # panneau ne s'affichant que si l'utilisateur choisit le kappa de Fleiss !
 				condition = "input.choiceKappa == 'Three raters or more'",
-				sliderInput("nb_raters", label=strong("Number of raters for Fleiss' kappa calculation"), min=3, max=10, value=3)
+				sliderInput("nb_raters", label=h3("Number of raters for Fleiss' kappa calculation"), min=3, max=10, value=3)
 			),
 			actionButton("go_kappa", "Execute") # bouton pour lancer le calcul effectif
 		),

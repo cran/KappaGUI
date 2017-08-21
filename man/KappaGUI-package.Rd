@@ -6,14 +6,14 @@
 A Shiny user interface for Cohen's and Fleiss' Kappa.
 }
 \description{
-Offers a Shiny user interface to work out Cohen's and Fleiss' Kappa, using the library 'irr'.
+A Shiny front-end for the package 'irr' to compute Cohen's and Fleiss' Kappa.
 }
 \details{
 \tabular{ll}{
 Package: \tab KappaGUI\cr
 Type: \tab Package\cr
-Version: \tab 2.0.0\cr
-Date: \tab 2017-07-06\cr
+Version: \tab 2.0.1\cr
+Date: \tab 2017-08-21\cr
 License: \tab GPL >=2\cr
 }
 
@@ -28,7 +28,7 @@ Cohen, J. (1968). Weighted kappa: Nominal scale agreement with provision for sca
 }
 \keyword{Kappa}
 \seealso{
-kappa2
+irr::kappa2
 }
 \examples{
 \dontrun{ StartKappa() }
