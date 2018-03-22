@@ -3,28 +3,28 @@
 \alias{KappaGUI}
 \docType{package}
 \title{
-A Shiny user interface for Cohen's and Fleiss' Kappa.
+An R-Shiny application for calculating Cohen's and Fleiss' Kappa
 }
 \description{
-A Shiny front-end for the package 'irr' to compute Cohen's and Fleiss' Kappa.
+Offers a graphical user interface for the evaluation of inter-rater agreement with Cohen's and Fleiss' Kappa. The calculation of kappa statistics is done using the R package 'irr', so that 'KappaGUI' is essentially a Shiny front-end for 'irr'.
 }
 \details{
 \tabular{ll}{
 Package: \tab KappaGUI\cr
 Type: \tab Package\cr
-Version: \tab 2.0.1\cr
-Date: \tab 2017-08-21\cr
+Version: \tab 2.0.2\cr
+Date: \tab 2018-03-22\cr
 License: \tab GPL >=2\cr
 }
 
 }
 \author{
-Frederic Santos, <frederic.santos@u-bordeaux.fr>
+Frédéric Santos, \email{frederic.santos@u-bordeaux.fr}
 }
 \references{
-Cohen, J. (1960). A coefficient of agreement for nominal scales. Educational and Psychological Measurement, 20, 37-46.
+Cohen, J. (1960) A coefficient of agreement for nominal scales. \emph{Educational and Psychological Measurement}, \bold{20}, 37--46.
 
-Cohen, J. (1968). Weighted kappa: Nominal scale agreement with provision for scaled disagreement or partial credit. Psychological Bulletin, 70, 213-220.
+Cohen, J. (1968) Weighted kappa: Nominal scale agreement with provision for scaled disagreement or partial credit. \emph{Psychological Bulletin}, \bold{70}, 213--220.
 }
 \keyword{Kappa}
 \seealso{

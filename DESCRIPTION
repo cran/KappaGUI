@@ -1,14 +1,15 @@
 Package: KappaGUI
 Type: Package
-Title: GUI for Cohen's and Fleiss' Kappa
-Version: 2.0.1
-Date: 2017-08-21
-Author: Frederic Santos
-Maintainer: Frederic Santos <frederic.santos@u-bordeaux.fr>
+Title: An R-Shiny Application for Calculating Cohen's and Fleiss' Kappa
+Version: 2.0.2
+Date: 2018-03-22
+Author: Frédéric Santos
+Maintainer: Frédéric Santos <frederic.santos@u-bordeaux.fr>
 Depends: R (>= 3.4.0), shiny, irr
-Description: A Shiny front-end for the package 'irr' to compute Cohen's and Fleiss' Kappa.
+Description: Offers a graphical user interface for the evaluation of inter-rater agreement with Cohen's and Fleiss' Kappa. The calculation of kappa statistics is done using the R package 'irr', so that 'KappaGUI' is essentially a Shiny front-end for 'irr'.
 License: GPL (>= 2)
+Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2017-08-21 08:15:26 UTC; fsantos
+Packaged: 2018-03-22 14:35:33 UTC; f.santos
 Repository: CRAN
-Date/Publication: 2017-08-21 08:24:34 UTC
+Date/Publication: 2018-03-22 15:52:45 UTC
